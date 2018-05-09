@@ -21,7 +21,10 @@ public class Main {
             System.out.println(student.getStudentName());
             System.out.println(student.getSection());
             System.out.println();
+
         }
+        MapPrac mapPrac = new MapPrac();
+        mapPrac.getMap();
 
     }
 }
