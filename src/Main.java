@@ -15,5 +15,13 @@ public class Main {
         for(Integer integer : integerArrayList)
             System.out.println(integer);
 
+        StudentController studentController = new StudentController();
+        for (Student student : studentController.getStudentList()){
+            System.out.println(student.getStudentId());
+            System.out.println(student.getStudentName());
+            System.out.println(student.getSection());
+            System.out.println();
+        }
+
     }
 }
