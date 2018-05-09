@@ -2,7 +2,7 @@ public class Student {
     private Integer studentId;
     private  String studentName;
     private String section;
-    
+
     public Integer getStudentId() {
         return studentId;
     }
